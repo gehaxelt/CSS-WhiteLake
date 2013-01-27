@@ -1,0 +1,137 @@
+h1,h2,h3,h4,em {
+color: #21759b !important;
+}
+
+/** ANFANG HEADER **/
+html {
+ background: #d4d2d2 url("/images/line-tile.png?1335478258") top left !important;
+}
+
+body > header, .blog-index {
+background: white !important;
+}
+
+body > header h1 a {
+color: #515151 !important;
+}
+/**END HEADER**/
+
+/** ANFANG SIDEBAR **/ 
+section h1 {
+color: #1863a1 !important;
+}
+
+aside .sidebar a :hover {
+color: #21759b !important;
+font-weight: bold !important;
+}
+
+aside.sidebar a {
+-moz-transition: none !important;
+-webkit-transition: none !important;
+-o-transition: none !important;
+transition: none !important;
+color: #515151 !important;
+}
+
+aside.sidebar {
+border-top: none !important;
+}
+/** END SIDEBAR **/
+
+/** ANFANG Artikel **/
+
+#blog-archives article, .blog-index article + article {
+	background: none !important;
+}
+
+.entry-content h1 {
+ font-size: 1.7em !important;
+ line-height: 0.8em !important;
+}
+#content .blog-index a[rel="full-article"]:hover {
+background: #ebebeb !important; 
+}
+
+#content .blog-index a[rel="full-article"] {
+color: #21759b !important;
+}
+article ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+	margin-bottom:10px;
+}
+
+article li {
+    padding-left: 0.5em; 
+    padding-right: 7px;
+}
+
+article li:before {
+	content: "• ";
+    	color: #21759b;
+}
+article {
+border-bottom: 1px dotted #21759b  !important;
+}
+
+.hentry, article[role="article"] {
+border-bottom: none !important;
+}
+
+.entry-title{
+color: #21759b !important;
+font-size: 1.5em !important;
+}
+
+.hentry header, article[role="article"] header {
+border-bottom: 1px dotted #21759b !important;
+}
+
+article header {
+background: none !important;
+}
+/** END Artikel **/
+
+/** ANFANG Navigation **/
+.pagination a {
+color: #21759b !important;
+}
+
+#blog-archives article h1 a {
+font-size: 0.8em !important;
+color: #21759b !important;
+}
+
+.main-navigation li a:hover {
+color: #21759b !important;
+}
+
+body > nav {
+background: none !important;
+background-color: white !important;
+border-bottom: 1px solid #21759b !important;
+border-top: none !important;
+}
+
+/** END Navigation **/
+
+/** ANFANG HINTERGRUND **/
+#main, #content {
+background: white url('/images/noise.png?1335478258') top left !important;
+}
+/** END HINTERGRUND **/
+
+/**ANFANG Footer **/
+body > footer {
+background: none !important;
+background-color: white !important;
+border-bottom: none !important;
+border-top: none !important;
+}
+/** END Footer **/
+
+header[role="banner"] {
+margin-top: 25px !important;
+}
