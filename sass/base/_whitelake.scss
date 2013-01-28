@@ -56,22 +56,6 @@ background: #ebebeb !important;
 #content .blog-index a[rel="full-article"] {
 color: #21759b !important;
 }
-article ul {
-    list-style: none;
-    padding:0;
-    margin:0;
-	margin-bottom:10px;
-}
-
-article li {
-    padding-left: 0.5em; 
-    padding-right: 7px;
-}
-
-article li:before {
-	content: "• ";
-    	color: #21759b;
-}
 article {
 border-bottom: 1px dotted #21759b  !important;
 }
