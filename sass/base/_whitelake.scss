@@ -4,7 +4,7 @@ color: #21759b !important;
 
 /** ANFANG HEADER **/
 html {
- background: #d4d2d2 url("/images/line-tile.png?1335478258") top left !important;
+ background: #d4d2d2 image-url("line-tile.png") top left !important;
 }
 
 body > header, .blog-index {
@@ -103,7 +103,7 @@ border-top: none !important;
 
 /** ANFANG HINTERGRUND **/
 #main, #content {
-background: white url('/images/noise.png?1335478258') top left !important;
+background: white image-url('noise.png') top left !important;
 }
 /** END HINTERGRUND **/
 
