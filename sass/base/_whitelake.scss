@@ -119,3 +119,12 @@ border-top: none !important;
 header[role="banner"] {
 margin-top: 25px !important;
 }
+
+dt {
+  font-weight: bold;
+  text-decoration: underline;
+}
+dd {
+  margin: 0;
+  padding: 0 0 0.5em 1.5em;
+}
